@@ -4,11 +4,22 @@ Welcome to my DSA repository. Here, you'll find detailed explanations, code exam
 
 ## Table of Contents
 
+- [Prerequisites](#prerequisites)
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Prerequisites
+
+Before diving into Data Structures and Algorithms, it is recommended to understand the following topics:
+
+- [Time Complexity](Prerequisites/TimeComplexity)
+- [Space Complexity](Prerequisites/SpaceComplexity)
+- [STL Vector](Prerequisites/STLVector)
+
+Explore all prerequisite topics in the [Prerequisites Directory](Prerequisites/).
 
 ## Data Structures
 
@@ -46,5 +57,9 @@ Explore the full set of algorithms in the [Algorithms Directory](Algorithms/).
 To get started with this repository, clone it to your local machine:
 
 ```bash
-git clone https://github.com/hasnat-shahriyar/DSA
+git clone https://github.com/hasnat-shahriyar/DSA.git
 ```
+
+---
+
+Happy coding and learning!
