@@ -16,7 +16,7 @@ Welcome to my DSA repository. Here, you'll find detailed explanations, code exam
 Before diving into Data Structures and Algorithms, it is recommended to understand the following topics:
 
 - [Time Complexity](https://github.com/hasnat-shahriyar/DSA/tree/main/Prerequisites/TimeComplexity)
-- [Space Complexity](Prerequisites/SpaceComplexity)
+- [Space Complexity](https://github.com/hasnat-shahriyar/DSA/tree/main/Prerequisites/SpaceComplexity)
 - [STL Vector](Prerequisites/STLVector)
 
 Explore all prerequisite topics in the [Prerequisites Directory](https://github.com/hasnat-shahriyar/DSA/tree/main/Prerequisites).
