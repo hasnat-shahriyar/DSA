@@ -8,6 +8,8 @@ Time complexity is a crucial concept in computer science and algorithm design. I
 
 Time complexity is a computational complexity that describes the amount of time it takes to run an algorithm. It is usually expressed using Big O notation, which classifies algorithms according to their worst-case or average-case running time.
 
+- Time complexity does not refer to the actual time it takes to execute code. Instead, it measures the number of steps or operations an algorithm performs on a specific machine.
+
 ##
 
 **টাইম কমপ্লেক্সিটি** (Time Complexity) হলো একটি এলগরিদমের কার্যকারিতার একটি পরিমাপ, যা বলে দেয় যে একটি এলগরিদম তার ইনপুটের আকার (input size) অনুসারে কত দ্রুত কাজ সম্পন্ন করতে পারে । এটি এলগরিদমের কার্যকারিতার গাণিতিক বিশ্লেষণের একটি পদ্ধতি ।
