@@ -141,6 +141,59 @@ int main() {
 }
 ```
 
+#
+
+#
+
+### Time Complexity
+
+Time complexity is a way to express how the runtime of an algorithm grows as the size of the input grows. It helps us understand how an algorithm's speed scales with larger inputs.
+
+1. **O(N)**: Linear Time
+
+   - **Example**: Going through all the elements in a list.
+   - **Explanation**: If you have 10 elements, it takes 10 steps. If you have 100 elements, it takes 100 steps. The time grows linearly with the number of elements.
+
+2. **O(log N)**: Logarithmic Time
+
+   - **Example**: Binary search.
+   - **Explanation**: If you have 10 elements, it might take about 3 steps; if you have 100 elements, it might take about 7 steps. The time grows much slower than the number of elements. Each step typically cuts the problem size in half.
+
+3. **O(√N)**: Square Root Time
+
+   - **Example**: Some algorithms in number theory.
+   - **Explanation**: If you have 100 elements, it might take about 10 steps; if you have 10,000 elements, it might take about 100 steps. The time grows with the square root of the number of elements.
+
+4. **O(N²)**: Quadratic Time
+
+   - **Example**: Nested loops, like checking all pairs in a list.
+   - **Explanation**: If you have 10 elements, it takes 100 steps; if you have 100 elements, it takes 10,000 steps. The time grows with the square of the number of elements.
+
+5. **O(N log N)**: Linearithmic Time
+   - **Example**: Efficient sorting algorithms like mergesort and heapsort.
+   - **Explanation**: If you have 10 elements, it might take about 30 steps; if you have 100 elements, it might take about 700 steps. The time grows faster than linear but slower than quadratic.
+
+### Space Complexity
+
+Space complexity refers to the amount of memory an algorithm uses as the size of the input grows. It includes both the memory needed to store the input data and the memory needed for the algorithm to run.
+
+- **Example**:
+  - An algorithm that simply reads a list and prints each element has O(N) space complexity because it needs space for the list.
+  - An algorithm that creates a new list to store results also has O(N) space complexity because it needs additional space proportional to the input size.
+  - An algorithm that only uses a few extra variables has O(1) space complexity, meaning it uses a constant amount of space regardless of input size.
+
+### Summary
+
+- **O(N)**: Time grows linearly with input size.
+- **O(log N)**: Time grows logarithmically (much slower).
+- **O(√N)**: Time grows with the square root of input size.
+- **O(N²)**: Time grows quadratically with input size.
+- **O(N log N)**: Time grows faster than linear but slower than quadratic.
+
+Space complexity tells us how much memory an algorithm needs relative to the input size.
+
+I hope this helps! Let me know if you have any questions or need more examples.
+
 ## Conclusion
 
 Understanding time complexity is essential for writing efficient algorithms and improving the performance of your code. By analyzing the time complexity of different algorithms, you can make informed decisions about which algorithm to use in a particular scenario.
