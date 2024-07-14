@@ -6,7 +6,7 @@ int main()
     int n;
     cin >> n; // O(1): Reading the integer n
 
-    // Loop runs approximately sqrt(n) times, hence O(sqrt(n))
+    // Loop runs from 1 to sqrt(n), hence O(sqrt(n))
     for (int i = 1; i <= sqrt(n); i++)
     {
         if (n % i == 0) // O(1): Checking if i is a divisor of n
